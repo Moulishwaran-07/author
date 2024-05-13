@@ -1,0 +1,239 @@
+body {
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.title {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.title h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.title h2 {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    margin-top: 22%;
+    height: 100vh;
+    /* width: 100vw; */
+}
+
+.story1 {
+    margin-left: 250px;
+    margin-top: 80px;
+}
+
+.story1 .part2 {
+    margin-top: 60px;
+}
+
+.image img {
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.about p {
+    font-size: 1.09rem;
+    font-weight: 300;
+    word-spacing: 2px;
+    text-align: justify;
+}
+
+.about h3 {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.quote {
+    text-align: center;
+}
+
+.quote h4 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.achieve {
+    background-color: white;
+    height: 100vh;
+}
+
+.achieve,
+.head {
+    text-align: center;
+}
+
+.achieve,
+.head,
+h5 {
+    padding-top: 5px;
+    font-size: 1.5rem;
+}
+
+.tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* padding-top: 50px; */
+    margin-left: 50px;
+    column-gap: 20px;
+}
+
+.tab1 {
+    position: relative;
+    border: 2px solid black;
+    height: 100px;
+    width: 300px;
+   
+    
+}
+
+.tab1 h6 {
+    position: absolute;
+    margin-top: -1px;
+    font-size: 1.1rem;
+}
+
+.tab1 p {
+    position: absolute;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.tab1,
+.para1 {
+    margin-top: 30px;
+
+}
+
+.tab2 {
+    position: relative;
+    border: 2px solid black;
+    height: 100px;
+    width: 300px;
+   
+}
+
+.tab2 h6 {
+    position: absolute;
+    margin-top: -1px;
+    font-size: 1.1rem;
+}
+
+.tab2 p {
+    position: absolute;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.tab2,
+.para2 {
+    margin-top: 30px;
+    margin-left: -15px;
+}
+
+
+
+
+.tab3 {
+    position: relative;
+    border: 2px solid black;
+    height: 100px;
+    width: 300px;
+ 
+}
+
+.tab3 h6 {
+    position: absolute;
+    margin-top: -1px;
+    font-size: 1.1rem;
+}
+
+.tab3 p {
+    position: absolute;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.tab3,
+.para3 {
+    margin-top: 30px;
+    margin-left: -15px;
+}
+
+
+.tab4 {
+    position: relative;
+    border: 2px solid black;
+    height: 100px;
+    width: 300px;
+}
+
+.tab4 h6 {
+    position: absolute;
+    margin-top: -1px;
+    font-size: 1.1rem;
+   
+}
+
+.tab4 p {
+    position: absolute;
+    font-size: 1rem;
+    margin-top: 30px;
+    
+}
+
+.tab4,
+.para4 {
+    margin-top: 30px;
+    margin-left: 15px;
+   
+}
+.books
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px; 
+   
+}
+.books,.sec1
+{
+    margin-left: 60px;
+}
+.sec1 ,ol,li
+{
+    font-size: 1rem;
+    text-align: justify;
+}
+.sec1,ol
+{
+    margin-top: 50px;
+}
+
+.sec1 h2
+{
+    margin-left: 200px;
+}

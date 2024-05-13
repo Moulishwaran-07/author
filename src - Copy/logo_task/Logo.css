@@ -1,0 +1,25 @@
+
+.view {
+   
+    white-space: nowrap;
+    overflow: hidden;
+}
+.company {
+   
+    animation:10s myanimate infinite linear; 
+    display: inline-block;
+   
+}
+.company img {
+    height: 150px;
+    width: 150px;
+    margin-right: 60px;
+}
+@keyframes myanimate {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
